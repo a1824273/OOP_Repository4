@@ -58,6 +58,8 @@ int main()
     
     cart1->printMeerkats();
 
+    cart1->emptyCart();
+
     /*cart1->addMeerkat(Zee);
     cart1->addMeerkat(Garfield);*/
 
