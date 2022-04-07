@@ -8,6 +8,11 @@ meerkat::meerkat()                      // no name or age is required to create 
     name = "steve";
     age = 12;
 }
+meerkat::meerkat(string nameInput, int ageInput)                      // no name or age is required to create a meerkat
+{
+    name = nameInput;
+    age = ageInput;
+}
 void meerkat::setName(string meerName)   // change the meerkat's name
 {
     name = meerName;
