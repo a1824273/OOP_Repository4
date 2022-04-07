@@ -4,6 +4,12 @@
 
 using namespace std;
 
+person::person()
+{
+    name = "Steve";
+    cash = 12;
+}
+
 person::person(string myName, int Salary) // a name and salary must be provided to create a person
 {
     name = myName;

@@ -8,6 +8,7 @@ using namespace std;
 class person
 {
 public:
+    person();
     person(string myName,int Salary); // a name and salary must be provided to create a person
     string name;
     int cash;
